@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChallengeU - Collaborate</title>
+    <link rel="stylesheet" href="../public/css/pages/styles.css">
+    <link rel="stylesheet" href="../public/css/pages/collaborate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+        <div class="logo">Challenge</div>
+        <button class="burger-menu" aria-label="Toggle menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <div class="nav-dropdown">
+                <a href="pages/collaborate.html" class="dropdown-trigger">
+                    Collaborate
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="pages/create-team.html" class="dropdown-item">
+                        <i class="fas fa-plus-circle"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Create a Team</span>
+                            <span class="item-description">Start your own team</span>
+                        </div>
+                    </a>
+                    <a href="pages/collaborate.html#join-team" class="dropdown-item">
+                        <i class="fas fa-users"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Join a Team</span>
+                            <span class="item-description">Find existing teams</span>
+                        </div>
+                    </a>
+                    <a href="pages/collaborate.html#browns-team" class="dropdown-item">
+                        <i class="fas fa-user-friends"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Browns Team</span>
+                            <span class="item-description">View Browns team</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="pages/find-mentor.html" class="dropdown-trigger">
+                    Find Mentor
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="pages/find-mentor.html#browse" class="dropdown-item">
+                        <i class="fas fa-search"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Browse Mentors</span>
+                            <span class="item-description">Find your perfect mentor</span>
+                        </div>
+                    </a>
+                    <a href="pages/join-as-mentor.html" class="dropdown-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Become a Mentor</span>
+                            <span class="item-description">Share your expertise</span>
+                        </div>
+                    </a>
+                    <a href="pages/find-mentor.html#mentorship-programs" class="dropdown-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Mentorship Programs</span>
+                            <span class="item-description">Structured learning paths</span>
+                        </div>
+                    </a>
+                    <a href="pages/find-mentor.html#success-stories" class="dropdown-item">
+                        <i class="fas fa-star"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Success Stories</span>
+                            <span class="item-description">Real mentorship journeys</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="pages/resources.html" class="dropdown-trigger">
+                    Resources
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="pages/resources.html#learning-paths" class="dropdown-item">
+                        <i class="fas fa-road"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Learning Paths</span>
+                            <span class="item-description">Guided learning journeys</span>
+                        </div>
+                    </a>
+                    <a href="pages/resources.html#tutorials" class="dropdown-item">
+                        <i class="fas fa-book-open"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Tutorials</span>
+                            <span class="item-description">Step-by-step guides</span>
+                        </div>
+                    </a>
+                    <a href="pages/resources.html#tools" class="dropdown-item">
+                        <i class="fas fa-tools"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Tools & Resources</span>
+                            <span class="item-description">Helpful resources</span>
+                        </div>
+                    </a>
+                    <a href="pages/resources.html#articles" class="dropdown-item">
+                        <i class="fas fa-newspaper"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Articles</span>
+                            <span class="item-description">Latest insights</span>
+                        </div>
+                    </a>
+                    <a href="pages/resources.html#community" class="dropdown-item">
+                        <i class="fas fa-comments"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Community Forum</span>
+                            <span class="item-description">Join the discussion</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="auth-buttons">
+            <a href="public/sign-in.html" class="btn-secondary">Sign In</a>
+            <a href="public/sign-up.html" class="btn-primary">Sign Up</a>
+            <button class="theme-toggle">
+                <img src="assets/icons/theme-sun.svg" alt="Theme Toggle" />
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+    <main class="collaborate-main">
+        <section class="hero-section">
+            <h1>Join Team or Project</h1>
+            <p>Enter your team or project code below</p>
+            <div class="code-input-container">
+                <input type="text" class="code-input" placeholder="Enter code here..." maxlength="8">
+                <button class="btn-primary join-btn">Join Now</button>
+            </div>
+        </section>
+
+        <section class="collaboration-options">
+            <div class="collab-card">
+                <i class="fas fa-users"></i>
+                <h2>Join a Team</h2>
+                <p>Connect with like-minded individuals and work on exciting projects together.</p>
+                <button class="btn-primary">Find Teams</button>
+            </div>
+
+            <div class="collab-card">
+                <i class="fas fa-lightbulb"></i>
+                <h2>Start a Project</h2>
+                <p>Have an idea? Create a project and invite others to collaborate.</p>
+                <a href="create-team.html" class="btn-primary">Create Project</a>
+            </div>
+
+            <div class="collab-card">
+                <i class="fas fa-comments"></i>
+                <h2>Discussion Forum</h2>
+                <p>Engage in discussions, share ideas, and get feedback from the community.</p>
+                <button class="btn-primary">Join Discussion</button>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 ChallengeU. All rights reserved.</p>
+    </footer>
+
+    <script src="../public/js/script.js"></script>
+</body>
+</html>

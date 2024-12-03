@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 0H30C35.5228 0 40 4.47715 40 10V30C40 35.5228 35.5228 40 30 40H20C14.4772 40 10 35.5228 10 30V10C10 4.47715 14.4772 0 20 0Z" fill="#4F46E5"/>
+    <path d="M25 8L32 15L25 22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 18L25 25L18 32" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="55" y="27" font-family="Inter" font-size="24" font-weight="600" fill="#1F2937">Challenge U</text>
+</svg>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Team - ChallengeU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../public/css/pages/styles.css" />
+    <link rel="stylesheet" href="../public/css/auth/auth.css" />
+    <link rel="stylesheet" href="../public/css/components/ui.css" />
+    <link rel="stylesheet" href="../public/css/pages/join-team.css" />
+</head>
+<body>
+ <!-- Navigation -->
+ <nav>
+    <div class="nav-container">
+        <div class="logo">Challenge U</div>
+        <button class="burger-menu" aria-label="Toggle menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <div class="nav-dropdown">
+                <a href="collaborate.html" class="dropdown-trigger active">
+                    Collaborate
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="create-team.html" class="dropdown-item">
+                        <i class="fas fa-plus-circle"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Create a Team</span>
+                            <span class="item-description">Start your own team</span>
+                        </div>
+                    </a>
+                    <a href="collaborate.html#join-team" class="dropdown-item active">
+                        <i class="fas fa-users"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Join a Team</span>
+                            <span class="item-description">Find existing teams</span>
+                        </div>
+                    </a>
+                    <a href="collaborate.html#browns-team" class="dropdown-item">
+                        <i class="fas fa-user-friends"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Browns Team</span>
+                            <span class="item-description">View Browns team</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="find-mentor.html" class="dropdown-trigger">
+                    Find Mentor
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="find-mentor.html#browse" class="dropdown-item">
+                        <i class="fas fa-search"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Browse Mentors</span>
+                            <span class="item-description">Find your perfect mentor match</span>
+                        </div>
+                    </a>
+                    <a href="find-mentor.html#become-mentor" class="dropdown-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Become a Mentor</span>
+                            <span class="item-description">Share your expertise</span>
+                        </div>
+                    </a>
+                    <a href="find-mentor.html#mentorship-programs" class="dropdown-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Mentorship Programs</span>
+                            <span class="item-description">Structured learning paths</span>
+                        </div>
+                    </a>
+                    <a href="find-mentor.html#success-stories" class="dropdown-item">
+                        <i class="fas fa-star"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Success Stories</span>
+                            <span class="item-description">Read mentorship experiences</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="resources.html" class="dropdown-trigger">
+                    Resources
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="resources.html#learning-paths" class="dropdown-item">
+                        <i class="fas fa-road"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Learning Paths</span>
+                            <span class="item-description">Structured learning guides</span>
+                        </div>
+                    </a>
+                    <a href="resources.html#tutorials" class="dropdown-item">
+                        <i class="fas fa-book-open"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Tutorials</span>
+                            <span class="item-description">Step-by-step guides</span>
+                        </div>
+                    </a>
+                    <a href="resources.html#tools" class="dropdown-item">
+                        <i class="fas fa-tools"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Tools & Resources</span>
+                            <span class="item-description">Development tools</span>
+                        </div>
+                    </a>
+                    <a href="resources.html#articles" class="dropdown-item">
+                        <i class="fas fa-newspaper"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Articles</span>
+                            <span class="item-description">Latest tech insights</span>
+                        </div>
+                    </a>
+                    <a href="resources.html#community" class="dropdown-item">
+                        <i class="fas fa-comments"></i>
+                        <div class="dropdown-item-content">
+                            <span class="dropdown-item-title">Community Forum</span>
+                            <span class="item-description">Discuss and share</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="auth-buttons">
+            <a href="../public/sign-in.html" class="btn-secondary">Sign In</a>
+            <a href="../public/sign-up.html" class="btn-primary">Sign Up</a>
+            <button class="theme-toggle">
+                <img src="../assets/icons/theme-sun.svg" alt="Theme Toggle" />
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+    <main class="team-main">
+        <!-- Hero Section -->
+        <section class="team-hero">
+            <div class="section-header">
+                <h1>Find Your Dream Team</h1>
+                <p>Join existing teams or create your own to collaborate on exciting projects</p>
+            </div>
+            
+            <!-- Team Actions -->
+            <div class="team-actions">
+                <a href="#join-code" class="action-card">
+                    <i class="fas fa-key"></i>
+                    <h3>Join with Code</h3>
+                    <p>Have a team code? Join directly</p>
+                </a>
+                <a href="#create-team" class="action-card">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Create Team</h3>
+                    <p>Start your own team</p>
+                </a>
+                <a href="#browse-teams" class="action-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Browse Teams</h3>
+                    <p>Explore available teams</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Join with Code Section -->
+        <section id="join-code" class="team-section">
+            <div class="section-header">
+                <h2>Join with Code</h2>
+                <p>Enter your team invitation code to join instantly</p>
+            </div>
+            <div class="code-input-container">
+                <div class="code-input-wrapper">
+                    <input type="text" placeholder="Enter team code" maxlength="8">
+                    <button class="btn-primary">Join Team <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Create Team Section -->
+        <section id="create-team" class="team-section">
+            <div class="section-header">
+                <h2>Create Your Team</h2>
+                <p>Set up a new team and invite members</p>
+            </div>
+            <form class="create-team-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Team Name</label>
+                        <input type="text" placeholder="Enter team name">
+                    </div>
+                    <div class="form-group">
+                        <label>Project Category</label>
+                        <select>
+                            <option value="">Select category</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile Development</option>
+                            <option value="ai">AI/ML</option>
+                            <option value="design">Design</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Description</label>
+                        <textarea placeholder="Describe your team and project"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Team Size</label>
+                        <select>
+                            <option value="">Select size</option>
+                            <option value="2-4">2-4 members</option>
+                            <option value="5-8">5-8 members</option>
+                            <option value="9-12">9-12 members</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Experience Level</label>
+                        <select>
+                            <option value="">Select level</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary">Create Team <i class="fas fa-plus"></i></button>
+            </form>
+        </section>
+
+        <!-- Browse Teams Section -->
+        <section id="browse-teams" class="team-section">
+            <div class="section-header">
+                <h2>Browse Teams</h2>
+                <p>Find the perfect team to join</p>
+            </div>
+
+            <!-- Search and Filters -->
+            <div class="team-search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search teams by name, skills, or category">
+                </div>
+                <div class="filter-container">
+                    <button class="filter-btn">
+                        <i class="fas fa-filter"></i>
+                        Filters
+                    </button>
+                    <div class="filter-dropdown">
+                        <div class="filter-group">
+                            <label>Category</label>
+                            <select>
+                                <option value="">All Categories</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile Development</option>
+                                <option value="ai">AI/ML</option>
+                                <option value="design">Design</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Experience Level</label>
+                            <select>
+                                <option value="">All Levels</option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Team Size</label>
+                            <select>
+                                <option value="">Any Size</option>
+                                <option value="2-4">2-4 members</option>
+                                <option value="5-8">5-8 members</option>
+                                <option value="9-12">9-12 members</option>
+                            </select>
+                        </div>
+                        <button class="btn-primary">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teams Grid -->
+            <div class="teams-grid">
+                <!-- Team Card 1 -->
+                <div class="team-card">
+                    <div class="team-header">
+                        <div class="team-info">
+                            <h3>WebStack Innovators</h3>
+                            <span class="team-category"><i class="fas fa-code"></i> Web Development</span>
+                        </div>
+                        <span class="team-status open">Open</span>
+                    </div>
+                    <p class="team-description">Building a modern e-commerce platform using React and Node.js. Looking for frontend and backend developers.</p>
+                    <div class="team-meta">
+                        <span><i class="fas fa-users"></i> 3/6 members</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <div class="team-skills">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                    <button class="btn-primary">Request to Join</button>
+                </div>
+
+                <!-- Team Card 2 -->
+                <div class="team-card">
+                    <div class="team-header">
+                        <div class="team-info">
+                            <h3>AI Vision Lab</h3>
+                            <span class="team-category"><i class="fas fa-brain"></i> AI/ML</span>
+                        </div>
+                        <span class="team-status open">Open</span>
+                    </div>
+                    <p class="team-description">Developing an AI-powered image recognition system. Seeking ML engineers and data scientists.</p>
+                    <div class="team-meta">
+                        <span><i class="fas fa-users"></i> 2/4 members</span>
+                        <span><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <div class="team-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Computer Vision</span>
+                    </div>
+                    <button class="btn-primary">Request to Join</button>
+                </div>
+
+                <!-- Team Card 3 -->
+                <div class="team-card">
+                    <div class="team-header">
+                        <div class="team-info">
+                            <h3>Mobile Masters</h3>
+                            <span class="team-category"><i class="fas fa-mobile-alt"></i> Mobile Development</span>
+                        </div>
+                        <span class="team-status open">Open</span>
+                    </div>
+                    <p class="team-description">Creating a fitness tracking app with social features. Looking for iOS and Android developers.</p>
+                    <div class="team-meta">
+                        <span><i class="fas fa-users"></i> 4/8 members</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <div class="team-skills">
+                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                    <button class="btn-primary">Request to Join</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 ChallengeU. All rights reserved.</p>
+    </footer>
+    <script src="../public/js/script.js"></script>
+</body>
+</html>

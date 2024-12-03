@@ -1,0 +1,128 @@
+/* Button Styles */
+.btn-primary,
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4F46E5;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4338CA;
+}
+
+.btn-secondary {
+    background-color: #F3F4F6;
+    color: #1F2937;
+}
+
+.btn-secondary:hover {
+    background-color: #E5E7EB;
+}
+
+.btn-primary img,
+.btn-secondary img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-primary.loading,
+.btn-secondary.loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Social Buttons */
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    background-color: white;
+    color: #1F2937;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-button:hover {
+    background-color: #F9FAFB;
+    border-color: #D1D5DB;
+}
+
+.social-button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Button Sizes */
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+}
+
+/* Button States */
+.btn-primary:disabled,
+.btn-secondary:disabled,
+.social-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Button with Icon */
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.btn-icon img,
+.btn-icon i {
+    width: 20px;
+    height: 20px;
+}
+
+/* Button Group */
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Responsive Buttons */
+@media (max-width: 640px) {
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+}
