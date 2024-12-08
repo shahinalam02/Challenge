@@ -201,6 +201,11 @@
     background: #DC2626;
 }
 
+/* Hero Buttons */
+.hero-buttons a {
+    text-decoration: none;
+}
+
 /* Form Elements */
 .form-group {
     margin-bottom: 16px;
