@@ -1,7 +1,7 @@
 # Challenge Web Platform
 
 A modern web platform with authentication, collaboration, and mentorship features.
-Visit Challange[https://shahinalam02.github.io/Challenge/]
+Visit Challange [https://shahinalam02.github.io/Challenge/]
 
 ## Recent Updates
 
