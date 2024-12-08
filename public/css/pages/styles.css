@@ -83,6 +83,15 @@ nav {
     text-decoration: none;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
